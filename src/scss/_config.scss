@@ -35,11 +35,12 @@ $gorko-colors: (
   'grey': #dadada,
   'primary': #202841,
   'secondary': #ffeaef,
+  'secondary-shade': #ffacc0,
   'tertiary': #eceff6,
   'quaternary': #f8fc47,
-  'quinary': #e0f8b5,
-  'quinary-shade': #dadada,
-  'quinary-glare': #f3fae6,
+  'quinary': #e9b2fc,
+  'quinary-shade': #f4d2ff,
+  'quinary-glare': #f9eafe,
   'senary': #f7efe5,
 );
 
@@ -91,7 +92,7 @@ $gorko-config: (
     'items': (
       'micro': '10ch',
       'compact': '30ch',
-      'short': '40ch',
+      'short': '27ch',
       'long': '65ch',
     ),
     'output': 'responsive',

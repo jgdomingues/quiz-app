@@ -1,0 +1,40 @@
+.ans {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: get-size('300');
+  }
+
+  &__item {
+    @extend .radius;
+
+    display: flex;
+    align-items: center;
+    background-color: get-color('quinary-glare');
+    padding: get-size('300') get-size('500');
+    border: 1px solid get-color('grey');
+
+    &:hover {
+      background-color: get-color('quinary-shade');
+      cursor: pointer;
+    }
+
+    &.selected {
+      background-color: get-color('quinary');
+    }
+  }
+
+  &__letter {
+    text-transform: uppercase;
+    margin-right: get-size('400');
+    font-weight: 600;
+
+    &::after {
+      content: '.';
+    }
+  }
+
+  &__value {
+    font-size: get-size('400');
+  }
+}

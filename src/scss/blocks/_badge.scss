@@ -1,8 +1,9 @@
 .badge {
   text-align: center;
   display: inline-block;
+  border: 1px solid get-color('grey');
   border-radius: 2rem;
-  padding: 0.4rem get-size('600');
+  padding: 0.2rem get-size('600');
   margin-bottom: get-size('300');
 
   h3 {
