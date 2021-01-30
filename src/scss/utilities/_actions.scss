@@ -1,4 +1,9 @@
 .actions {
   display: flex;
   justify-content: space-between;
+
+  @include media-query('md') {
+    flex-direction: column;
+    gap: get-size('400');
+  }
 }

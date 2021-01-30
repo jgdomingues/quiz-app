@@ -1,12 +1,13 @@
 .badge {
+  @extend .radius;
+
   text-align: center;
   display: inline-block;
   border: 1px solid get-color('grey');
-  border-radius: 2rem;
   padding: 0.2rem get-size('600');
-  margin-bottom: get-size('300');
+  margin-bottom: get-size('400');
 
   h3 {
-    font-weight: 600;
+    font-weight: 700;
   }
 }

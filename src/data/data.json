@@ -5,10 +5,10 @@
       "If you could choose any age, to stay in for the rest of your life, which would it be ?",
     "answer": {
       "a": 5,
-      "b": 1,
+      "b": 15,
       "c": 35,
       "d": 55,
-      "e": 8
+      "e": 85
     },
     "selected": null,
     "correctAns": 35
@@ -25,5 +25,31 @@
     },
     "selected": null,
     "correctAns": "Neymar"
+  },
+  {
+    "id": 3,
+    "question": "What is the best fruit?",
+    "answer": {
+      "a": "Banana",
+      "b": "Strawberry",
+      "c": "Grape",
+      "d": "Apple",
+      "e": "Papaya"
+    },
+    "selected": null,
+    "correctAns": "Apple"
+  },
+  {
+    "id": 4,
+    "question": "What is the best superhero?",
+    "answer": {
+      "a": "Batman",
+      "b": "Superman",
+      "c": "Spiderman",
+      "d": "Wolwerine",
+      "e": "Wonder Women"
+    },
+    "selected": null,
+    "correctAns": "Apple"
   }
 ]

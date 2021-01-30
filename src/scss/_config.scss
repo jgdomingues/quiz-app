@@ -34,6 +34,7 @@ $gorko-colors: (
   'light': #ffffff,
   'grey': #dadada,
   'primary': #202841,
+  'primary-shade': #465b98,
   'secondary': #ffeaef,
   'secondary-shade': #ffacc0,
   'tertiary': #eceff6,
@@ -67,9 +68,7 @@ $gorko-config: (
   ),
   'font': (
     'items': (
-      'base': '"Bitter", Georgia, serif',
-      'sans':
-        '"Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      'base': '"Bitter", serif',
     ),
     'output': 'standard',
     'property': 'font-family',
@@ -106,13 +105,14 @@ $gorko-config: (
   'weight': (
     'items': (
       'normal': 400,
-      'bold': 900,
+      'semibold': 600,
+      'bold': 800,
     ),
     'output': 'standard',
     'property': 'font-weight',
   ),
   'breakpoints': (
-    'md': '(min-width: 37em)',
-    'lg': '(min-width: 62em)',
+    'md': '(max-width: 37em)',
+    'lg': '(width: 800px)',
   ),
 );
