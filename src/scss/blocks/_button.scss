@@ -16,12 +16,13 @@
     cursor: not-allowed;
   }
 
-  &[data-variant] {
-    background-color: get-color('primary');
-    color: get-color('tertiary');
+  // &[data-variant] {
+  //   border: 1px solid get-color('grey');
+  //   background-color: get-color('secondary');
+  //   color: get-color('primary');
 
-    &:hover {
-      color: get-color('primary');
-    }
-  }
+  //   &:hover {
+  //     background-color: get-color('secondary-shade');
+  //   }
+  // }
 }

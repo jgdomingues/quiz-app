@@ -12,11 +12,8 @@
 }
 
 body {
-  display: grid;
-  place-items: center;
   font-size: get-size('500');
   line-height: 1.5;
-
   @include apply-utility('font', 'base');
   @include apply-utility('bg', 'tertiary');
 }
@@ -24,6 +21,10 @@ body {
 :focus {
   outline: 2px dashed get-color('primary');
   outline-offset: 0.25rem;
+}
+
+#app {
+  height: 100vh;
 }
 
 main:focus {
@@ -34,6 +35,7 @@ main:focus {
 @import 'blocks/badge';
 @import 'blocks/ans';
 @import 'blocks/button';
+@import 'blocks/result';
 
 // Import utilities
 @import 'utilities/flow';
@@ -42,3 +44,4 @@ main:focus {
 @import 'utilities/wrapper';
 @import 'utilities/panel';
 @import 'utilities/actions';
+@import 'utilities/center';
